@@ -1,0 +1,76 @@
+
+.wtbp-ce-row:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.wtbp-settings .nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+.wtbp-emails-form{
+   margin-top: 20px;
+   padding: 25px 0;
+}
+
+.wtbp-header {
+    border-top: 1px dashed #ccc;
+}
+.wtbp-header hr {
+    display: none;
+}
+
+.wtbp-header th {
+  padding: 40px 10px 10px 0;
+  width: 230px;
+}
+.wtbp-header td {
+     padding:40px 10px 5px 10px;
+     
+}
+
+.wtbp-header h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.wtbp-details {
+    cursor: pointer;
+    font-size: 14px;
+    color: #0073AA;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.wtbp-ce-hidden-field th {
+    background-image: url("../images/arrow.svg");
+    background-position: left 21px;
+    background-repeat: no-repeat;
+    background-size: 15px auto;
+}
+
+
+.wtbp-ce-hidden-field th > strong {
+    padding-left: 25px;
+    display: inline-block;
+    color: #444;
+}
+
+.wtbp-ce-default-text {
+    display: none;
+}
+
+.wp-core-ui .button-secondary.wtbp-ce-default-btn {
+    margin-top: 10px;
+    float: left;
+}
+.wtbp-ce-allowed-html {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 20px 10px 0 0;
+}
+.wtbp-emails-form textarea {
+   padding: 15px 8px; 
+}
